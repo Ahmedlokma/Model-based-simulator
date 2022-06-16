@@ -1,6 +1,6 @@
 # Model-based-simualtor
 
-Downlaod pre-trained glove vectors
+Downlaod pre-trained glove vectors and place them in folder sequicity and sequicity_user inside a folder name glove
 
 cd sequicity_user
 
