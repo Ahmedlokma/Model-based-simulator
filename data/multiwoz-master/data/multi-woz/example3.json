@@ -1,0 +1,36 @@
+[
+    {
+    "dial" : [
+    {
+    "A": { 
+    "transcript":"what character did natalie portman play in star wars?",
+    
+    "slu" : [
+    {
+    "act": "inform",
+    "slots": [
+    ["natalie portman", "PERSON"]
+    ]
+    },
+    {
+    "act": "inform",
+    "slots": [
+     ["natalie portman", "NP"]
+    ]
+    },
+    {
+    "act": "inform",
+    "slots": [
+     ["star wars", "NP"]
+    ]
+    }
+    ]
+    },
+    "B": { 
+    "sent":"Padm\u00e9 Amidala"
+    },
+    "turn" : 0
+    }
+    ]
+}
+]

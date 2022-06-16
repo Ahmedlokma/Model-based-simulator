@@ -1,0 +1,4 @@
+INFO:torchtext.vocab:Loading vectors from /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/vector_cache1/glove.6B.50d.txt.pt
+WARNING:torchtext.data.iterator:The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.
+WARNING:torchtext.data.iterator:The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.
+WARNING:torchtext.data.iterator:The `device` argument should be set by using `torch.device` or passing a string as an argument. This behavior will be deprecated soon and currently defaults to cpu.

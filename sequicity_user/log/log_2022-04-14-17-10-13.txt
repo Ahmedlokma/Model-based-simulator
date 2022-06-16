@@ -1,0 +1,224 @@
+INFO:root:cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : usr_act
+seed : 0
+vocab_size : 800
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+degree_size : 1
+split : (9, 1, 1)
+root_dir : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user
+model_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/models/multi_woz_simulator911_act3.pkl
+result_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/results/multi_woz_simulator911_act.csv
+vocab_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/vocab/vocab-multi_woz_simulator911_act3.pkl
+data : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/rest_usr_simulator_act.json
+entity : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/rest_OTGY.json
+db : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/restaurant_db.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+INFO:root:635 known embedding. old mean: -0.001683 new mean 0.033518, old std 0.996384 new std 0.692119
+INFO:root:loss:2.4991931915283203 pr_loss:1.5276248455047607 m_loss:0.9715684652328491 grad:2.305814504623413
+INFO:root:Traning time: 102.60581016540527
+INFO:root:avg training loss in epoch 0 sup:3.120992
+INFO:root:acc: 0.5809, correct: 273, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[152.   0.   4.   0.   0.   0.   6.]
+ [ 45.   0.   0.   0.   0.   0.   1.]
+ [ 43.   0.  23.   0.   0.   0.  52.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  4.   0.   3.   0.   0.   0.   5.]
+ [ 16.   0.  18.   0.   0.   0.  98.]]
+INFO:root:validation loss in epoch 0 sup:3.561477 unsup:0.000000
+INFO:root:time for epoch 0: 112.557828
+INFO:root:saving model...
+INFO:root:loss:2.257233142852783 pr_loss:1.1667674779891968 m_loss:1.090465784072876 grad:3.153136730194092
+INFO:root:Traning time: 211.54023122787476
+INFO:root:avg training loss in epoch 1 sup:1.941269
+INFO:root:acc: 0.5106, correct: 240, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[155.   0.   7.   0.   0.   0.   0.]
+ [ 46.   0.   0.   0.   0.   0.   0.]
+ [ 52.   0.  64.   0.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  5.   0.   7.   0.   0.   0.   0.]
+ [ 12.   0.  99.   0.   0.   0.  21.]]
+INFO:root:validation loss in epoch 1 sup:3.273337 unsup:0.000000
+INFO:root:time for epoch 1: 120.282758
+INFO:root:saving model...
+INFO:root:loss:1.1007014513015747 pr_loss:0.6512407660484314 m_loss:0.4494606852531433 grad:2.1551754474639893
+INFO:root:Traning time: 301.5337872505188
+INFO:root:avg training loss in epoch 2 sup:1.575920
+INFO:root:acc: 0.6404, correct: 301, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[152.   4.   4.   0.   0.   0.   2.]
+ [  7.  38.   1.   0.   0.   0.   0.]
+ [ 56.   0.  60.   0.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  5.   0.   6.   0.   0.   0.   1.]
+ [ 18.   1.  62.   0.   0.   0.  51.]]
+INFO:root:validation loss in epoch 2 sup:3.269699 unsup:0.000000
+INFO:root:time for epoch 2: 98.673365
+INFO:root:saving model...
+INFO:root:loss:0.2287401556968689 pr_loss:0.051870036870241165 m_loss:0.17687012255191803 grad:1.338066816329956
+INFO:root:Traning time: 382.8683063983917
+INFO:root:avg training loss in epoch 3 sup:1.277861
+INFO:root:acc: 0.5383, correct: 253, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[139.  21.   2.   0.   0.   0.   0.]
+ [  1.  44.   1.   0.   0.   0.   0.]
+ [ 52.  35.  31.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  7.   2.   3.   0.   0.   0.   0.]
+ [  7.   1.  82.   0.   2.   1.  39.]]
+INFO:root:validation loss in epoch 3 sup:3.091433 unsup:0.000000
+INFO:root:time for epoch 3: 90.238216
+INFO:root:saving model...
+INFO:root:loss:0.911281943321228 pr_loss:0.5865854620933533 m_loss:0.32469651103019714 grad:1.9518686532974243
+INFO:root:Traning time: 463.9697904586792
+INFO:root:avg training loss in epoch 4 sup:1.190336
+INFO:root:acc: 0.7468, correct: 351, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[140.  11.  10.   0.   0.   0.   1.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 20.   1.  89.   4.   0.   0.   4.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.  10.   1.   0.   0.   1.]
+ [  0.   2.  46.   5.   0.   0.  79.]]
+INFO:root:validation loss in epoch 4 sup:3.335130 unsup:0.000000
+INFO:root:time for epoch 4: 89.796977
+INFO:root:early stop countdown 4, learning rate 0.001500
+INFO:root:loss:0.7520802617073059 pr_loss:0.5413821339607239 m_loss:0.21069814264774323 grad:1.5535717010498047
+INFO:root:Traning time: 545.771712064743
+INFO:root:avg training loss in epoch 5 sup:1.027485
+INFO:root:acc: 0.7128, correct: 335, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[150.   6.   5.   0.   0.   0.   1.]
+ [  4.  41.   1.   0.   0.   0.   0.]
+ [ 32.   1.  77.   5.   0.   0.   3.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  4.   0.   5.   1.   0.   0.   2.]
+ [  1.   1.  56.   7.   0.   0.  67.]]
+INFO:root:validation loss in epoch 5 sup:3.121441 unsup:0.000000
+INFO:root:time for epoch 5: 90.367816
+INFO:root:early stop countdown 3, learning rate 0.000750
+INFO:root:loss:0.9016083478927612 pr_loss:0.3445797264575958 m_loss:0.5570286512374878 grad:1.658644676208496
+INFO:root:Traning time: 626.4981510639191
+INFO:root:avg training loss in epoch 6 sup:0.889742
+INFO:root:acc: 0.6383, correct: 300, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[152.   5.   4.   0.   0.   0.   1.]
+ [  3.  42.   1.   0.   0.   0.   0.]
+ [ 53.   0.  61.   2.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  4.   0.   8.   0.   0.   0.   0.]
+ [  2.   1.  76.   8.   0.   0.  45.]]
+INFO:root:validation loss in epoch 6 sup:3.010777 unsup:0.000000
+INFO:root:time for epoch 6: 89.308056
+INFO:root:saving model...
+INFO:root:loss:0.914768397808075 pr_loss:0.394345760345459 m_loss:0.520422637462616 grad:1.801101803779602
+INFO:root:Traning time: 827.9586510658264
+INFO:root:avg training loss in epoch 7 sup:0.809907
+INFO:root:acc: 0.6298, correct: 296, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[151.   5.   6.   0.   0.   0.   0.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 45.   1.  66.   4.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  4.   0.   8.   0.   0.   0.   0.]
+ [  5.   1.  76.  14.   0.   0.  36.]]
+INFO:root:validation loss in epoch 7 sup:3.123099 unsup:0.000000
+INFO:root:time for epoch 7: 210.274055
+INFO:root:early stop countdown 4, learning rate 0.000375
+INFO:root:loss:0.7538845539093018 pr_loss:0.3659319281578064 m_loss:0.38795265555381775 grad:0.8770198225975037
+INFO:root:Traning time: 912.9093918800354
+INFO:root:avg training loss in epoch 8 sup:0.771081
+INFO:root:acc: 0.7000, correct: 329, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[150.   6.   5.   0.   0.   0.   1.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 30.   0.  81.   5.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  1.   0.  11.   0.   0.   0.   0.]
+ [  3.   1.  64.   9.   0.   0.  55.]]
+INFO:root:validation loss in epoch 8 sup:3.020081 unsup:0.000000
+INFO:root:time for epoch 8: 2058.140154
+INFO:root:early stop countdown 3, learning rate 0.000188
+INFO:root:loss:0.7252585887908936 pr_loss:0.45991387963294983 m_loss:0.26534467935562134 grad:0.7679849863052368
+INFO:root:Traning time: 1022.8825299739838
+INFO:root:avg training loss in epoch 9 sup:0.735147
+INFO:root:acc: 0.6638, correct: 312, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[149.   6.   7.   0.   0.   0.   0.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 40.   0.  73.   4.   0.   0.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  3.   0.   9.   0.   0.   0.   0.]
+ [  7.   1.  62.  15.   0.   0.  47.]]
+INFO:root:validation loss in epoch 9 sup:3.056246 unsup:0.000000
+INFO:root:time for epoch 9: 118.773402
+INFO:root:early stop countdown 2, learning rate 0.000094
+INFO:root:loss:0.04109017923474312 pr_loss:0.0006257882923819125 m_loss:0.04046439006924629 grad:0.33932071924209595
+INFO:root:Traning time: 1106.8977510929108
+INFO:root:avg training loss in epoch 10 sup:0.717705
+INFO:root:acc: 0.6574, correct: 309, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[150.   5.   6.   0.   0.   0.   1.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 34.   2.  76.   5.   0.   0.   1.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  2.   0.  10.   0.   0.   0.   0.]
+ [  6.   1.  74.  11.   0.   0.  40.]]
+INFO:root:validation loss in epoch 10 sup:3.047035 unsup:0.000000
+INFO:root:time for epoch 10: 92.682061
+INFO:root:early stop countdown 1, learning rate 0.000047
+INFO:root:loss:0.7347309589385986 pr_loss:0.4428248703479767 m_loss:0.29190605878829956 grad:1.471938967704773
+INFO:root:Traning time: 1190.143662929535
+INFO:root:avg training loss in epoch 11 sup:0.709441
+INFO:root:acc: 0.6787, correct: 319, total: 470
+INFO:root:the confusiont matrix:
+INFO:root:[[147.   7.   6.   1.   0.   0.   1.]
+ [  2.  43.   1.   0.   0.   0.   0.]
+ [ 30.   1.  79.   6.   0.   0.   2.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  1.   0.   9.   1.   0.   0.   1.]
+ [  3.   1.  64.  14.   0.   0.  50.]]
+INFO:root:validation loss in epoch 11 sup:3.057296 unsup:0.000000
+INFO:root:time for epoch 11: 91.936846

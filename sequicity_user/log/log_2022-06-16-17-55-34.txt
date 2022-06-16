@@ -1,0 +1,153 @@
+INFO:root:cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : usr
+seed : 0
+vocab_size : 8000
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+degree_size : 1
+split : (1, 1, 0)
+root_dir : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user
+model_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/models/wed3000.pkl
+result_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/results/wed3000.csv
+vocab_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/vocab/wed3000.pkl
+data : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Dialogue_act22.json
+entity : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Entity_Sorted22.json
+db : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset22.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+WARNING:root:actual label set smaller than that configured: 189/8000
+INFO:root:172 known embedding. old mean: 0.000030 new mean 0.049309, old std 1.001408 new std 0.704752
+INFO:root:loss:17.819839477539062 pr_loss:9.005806922912598 m_loss:8.814033508300781 grad:1.9294756650924683
+INFO:root:Traning time: 2.1594130992889404
+INFO:root:avg training loss in epoch 0 sup:17.819839
+INFO:root:validation loss in epoch 0 sup:16.697596 unsup:0.000000
+INFO:root:time for epoch 0: 12.128150
+INFO:root:saving model...
+INFO:root:loss:17.05116844177246 pr_loss:8.66999626159668 m_loss:8.381172180175781 grad:2.252711296081543
+INFO:root:Traning time: 3.6203458309173584
+INFO:root:avg training loss in epoch 1 sup:17.051168
+INFO:root:validation loss in epoch 1 sup:15.550003 unsup:0.000000
+INFO:root:time for epoch 1: 9.814988
+INFO:root:saving model...
+INFO:root:loss:16.113473892211914 pr_loss:8.3351411819458 m_loss:7.7783331871032715 grad:2.931701183319092
+INFO:root:Traning time: 5.094356060028076
+INFO:root:avg training loss in epoch 2 sup:16.113474
+INFO:root:validation loss in epoch 2 sup:14.219509 unsup:0.000000
+INFO:root:time for epoch 2: 9.541658
+INFO:root:saving model...
+INFO:root:loss:15.194640159606934 pr_loss:7.950100898742676 m_loss:7.244539260864258 grad:4.080449104309082
+INFO:root:Traning time: 6.56033992767334
+INFO:root:avg training loss in epoch 3 sup:15.194640
+INFO:root:validation loss in epoch 3 sup:13.642901 unsup:0.000000
+INFO:root:time for epoch 3: 9.897374
+INFO:root:saving model...
+INFO:root:loss:14.227487564086914 pr_loss:7.528664588928223 m_loss:6.698822498321533 grad:4.16062593460083
+INFO:root:Traning time: 8.062899827957153
+INFO:root:avg training loss in epoch 4 sup:14.227487
+INFO:root:validation loss in epoch 4 sup:13.231010 unsup:0.000000
+INFO:root:time for epoch 4: 9.243523
+INFO:root:saving model...
+INFO:root:loss:13.194086074829102 pr_loss:7.061282634735107 m_loss:6.132803440093994 grad:3.880775213241577
+INFO:root:Traning time: 9.510411739349365
+INFO:root:avg training loss in epoch 5 sup:13.194086
+INFO:root:validation loss in epoch 5 sup:12.773663 unsup:0.000000
+INFO:root:time for epoch 5: 9.264102
+INFO:root:saving model...
+INFO:root:loss:12.15774917602539 pr_loss:6.520827293395996 m_loss:5.6369218826293945 grad:4.716004371643066
+INFO:root:Traning time: 10.98449969291687
+INFO:root:avg training loss in epoch 6 sup:12.157749
+INFO:root:validation loss in epoch 6 sup:12.012988 unsup:0.000000
+INFO:root:time for epoch 6: 9.279963
+INFO:root:saving model...
+INFO:root:loss:10.918891906738281 pr_loss:5.911400318145752 m_loss:5.007491588592529 grad:4.484989166259766
+INFO:root:Traning time: 12.417643785476685
+INFO:root:avg training loss in epoch 7 sup:10.918892
+INFO:root:validation loss in epoch 7 sup:11.422136 unsup:0.000000
+INFO:root:time for epoch 7: 9.163633
+INFO:root:saving model...
+INFO:root:loss:9.797270774841309 pr_loss:5.241611480712891 m_loss:4.555659294128418 grad:5.784127712249756
+INFO:root:Traning time: 13.851022720336914
+INFO:root:avg training loss in epoch 8 sup:9.797271
+INFO:root:validation loss in epoch 8 sup:10.860901 unsup:0.000000
+INFO:root:time for epoch 8: 8.944229
+INFO:root:saving model...
+INFO:root:loss:8.664219856262207 pr_loss:4.5392303466796875 m_loss:4.1249895095825195 grad:4.548431873321533
+INFO:root:Traning time: 15.296492576599121
+INFO:root:avg training loss in epoch 9 sup:8.664220
+INFO:root:validation loss in epoch 9 sup:10.504381 unsup:0.000000
+INFO:root:time for epoch 9: 9.205044
+INFO:root:saving model...
+INFO:root:loss:7.732316970825195 pr_loss:3.836256980895996 m_loss:3.896059989929199 grad:5.368751525878906
+INFO:root:Traning time: 16.732632637023926
+INFO:root:avg training loss in epoch 10 sup:7.732317
+INFO:root:validation loss in epoch 10 sup:10.059988 unsup:0.000000
+INFO:root:time for epoch 10: 9.109206
+INFO:root:saving model...
+INFO:root:loss:6.826259613037109 pr_loss:3.202580451965332 m_loss:3.6236789226531982 grad:4.157365798950195
+INFO:root:Traning time: 18.15139150619507
+INFO:root:avg training loss in epoch 11 sup:6.826260
+INFO:root:validation loss in epoch 11 sup:9.934817 unsup:0.000000
+INFO:root:time for epoch 11: 9.338650
+INFO:root:saving model...
+INFO:root:loss:6.235690116882324 pr_loss:2.70367431640625 m_loss:3.532015800476074 grad:6.335807800292969
+INFO:root:Traning time: 19.58188557624817
+INFO:root:avg training loss in epoch 12 sup:6.235690
+INFO:root:validation loss in epoch 12 sup:9.847019 unsup:0.000000
+INFO:root:time for epoch 12: 9.494246
+INFO:root:saving model...
+INFO:root:loss:5.751718997955322 pr_loss:2.3783321380615234 m_loss:3.373386859893799 grad:1.602452278137207
+INFO:root:Traning time: 20.999622344970703
+INFO:root:avg training loss in epoch 13 sup:5.751719
+INFO:root:validation loss in epoch 13 sup:10.139721 unsup:0.000000
+INFO:root:time for epoch 13: 9.132244
+INFO:root:early stop countdown 4, learning rate 0.001500
+INFO:root:loss:5.5951128005981445 pr_loss:2.1924455165863037 m_loss:3.40266752243042 grad:3.943453550338745
+INFO:root:Traning time: 22.450444221496582
+INFO:root:avg training loss in epoch 14 sup:5.595113
+INFO:root:validation loss in epoch 14 sup:10.633343 unsup:0.000000
+INFO:root:time for epoch 14: 9.119167
+INFO:root:early stop countdown 3, learning rate 0.000750
+INFO:root:loss:6.166727066040039 pr_loss:2.110832929611206 m_loss:4.055893898010254 grad:18.54610252380371
+INFO:root:Traning time: 23.89772319793701
+INFO:root:avg training loss in epoch 15 sup:6.166727
+INFO:root:validation loss in epoch 15 sup:10.101503 unsup:0.000000
+INFO:root:time for epoch 15: 8.797090
+INFO:root:early stop countdown 2, learning rate 0.000375
+INFO:root:loss:5.407524585723877 pr_loss:2.082137107849121 m_loss:3.325387477874756 grad:4.920156002044678
+INFO:root:Traning time: 25.335193157196045
+INFO:root:avg training loss in epoch 16 sup:5.407525
+INFO:root:validation loss in epoch 16 sup:10.074166 unsup:0.000000
+INFO:root:time for epoch 16: 9.266841
+INFO:root:early stop countdown 1, learning rate 0.000188
+INFO:root:loss:5.32597017288208 pr_loss:2.063091993331909 m_loss:3.262878179550171 grad:1.2850199937820435
+INFO:root:Traning time: 26.76538634300232
+INFO:root:avg training loss in epoch 17 sup:5.325970
+INFO:root:validation loss in epoch 17 sup:10.071704 unsup:0.000000
+INFO:root:time for epoch 17: 9.141451

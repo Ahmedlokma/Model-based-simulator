@@ -1,0 +1,49 @@
+cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : train
+m : TSD
+prev_z_method : separate
+dataset : usr
+seed : 0
+vocab_size : 8000
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+degree_size : 1
+split : (9, 1, 1)
+root_dir : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user
+model_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/models/Guc.pkl
+result_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/results/Guc.csv
+vocab_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/vocab/vocab-Guc.pkl
+data : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Dialogue_act.json
+entity : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Entity_Sorted.json
+db : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 10
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+START_CSV_SECTION
+dial_id,turn_num,user,generated_bspan,bspan,generated_response,response,u_len,m_len,supervised
+32,0,"start by listing all the content you have taken so far , mark them with your level of understanding ; attended or not attended , how much you understand that lecture for example . then start listing your quizzes/projects/assignments/etc . including their weights , deadlines , and how much time they need .",", , , , , , , , , , , , , , , ,","study tips , <unk>",what are study tips and info about the met subjects ?,what are study tips and info about the met subjects ?,54,12,True
+31,0,"the grade of one course does not affect your career , recruiters focus on the overall performance .",affect affect affect affect affect affect . the the the the the the the the the,"improvement exam , <unk>","If I got a D grade in data structure and algorithm course, should I take an improvement exam? or It will not affect my career.","if i got a d grade in data structure and algorithm course , should i take an improvement exam ? or it will not affect my career .",19,29,True
+34,0,"in case you are an advising student yes , you need to discuss this with your advisor and coordinator",you you you you you you you you you you you you you you you you,"bachelor project on 10th semester , <unk>",can I do my bachelor project on the 10th semester ?,can i do my bachelor project on the 10th semester ?,20,12,True
+33,0,"list all the deadlines and give each one a score with its weight , how much time is needed to finish that assignment vs how much time you have , and what are the most important requirements of each assignment .",time much and and and and and and and and and and and and and and,"handle deadlines , <unk>",How to handle deadlines? ,how to handle deadlines ?,42,6,True

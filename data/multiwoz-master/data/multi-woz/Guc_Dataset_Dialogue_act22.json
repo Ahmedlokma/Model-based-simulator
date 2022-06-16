@@ -1,0 +1,2115 @@
+[
+{
+"dial" : [
+{
+"A": { 
+"transcript":"How to prepare my cv?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to make my cv?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Where can I have my cv reviewed?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "I need help making my cv?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What information is important to write in the cv?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How does a good cv look like?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to compensate for the lack of work experience in my cv?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cv", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it important to have side projects?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["side projects", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What projects can I do in my free time?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["free time", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to make value of my free time?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["free time", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it important to have side projects?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["side projects", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What happens if I copy an assignment?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["copy", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Can I copy a project solution from an online resource?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["copy", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it plagirism to use online resources?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["plagirism", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Does having a conversation with a colleague about the project considered plagirism?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["plagirism", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is plagirism?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["plagirism", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an A ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an A+ ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an A- ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an B+ ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an C ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an D ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an F ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an D+ ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa equivilant to an C- ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa equivilant", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How is the gpa grade calculated?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa grade calculated", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the guc grading schema?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["guc grading schema", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Where can I find internships as an undergrad?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How can I get internships?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to find internships?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to get accepted in internships?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it a must to do an internship?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Are internships obligatory for all faculties ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is there an excuse for not doing internships?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How long do an internship has to be?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the internships duration needed from an Engineering student?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the internships duration needed from an MET student?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the internships duration needed from an Appiled Arts student?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the internships duration needed from a pharmacy student?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the internships duration needed from a Management student?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What to do after completing an internship?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["completing an internship", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to submit an internship?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["submit an internship", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to tell the university that I have completed an intenship?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["completed an intenship", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Where to submit the internship report?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["submit the internship report", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to fill out and submit the internship report?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["submit the internship report", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to avoid plagirirsm?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["avoid plagirirsm", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to study for midterms?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study for midterms", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to study for finals?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study for finals", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "I need help studying for finals?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["studying for finals", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "I need assistance studying for midterms?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["studying for midterms", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to pass my midterms?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["pass my midterms", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to study for an exam?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study for an exam", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to study?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to study in the guc?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study in the guc", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to achieve good grades?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["achieve good grades", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Are there any studying tips?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["studying tips", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do you have any studying tips?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["studying tips", "study_advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is advising?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["advising", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How a student becomes advising?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["student becomes advising", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do advising students have an advisor?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["advising", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to get out of probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["get out of probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Help me get out of probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["get out of probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it easy to get out of probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["get out of probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Can a probation student graduate on time?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["probation student graduate on time", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Ant tips to leave probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["tips to leave probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do probation students pay extra?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["probation students pay extra", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa a student gets to become under probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa a student gets to become under probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the gpa needed to get out of probarion?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["gpa needed to get out of probarion", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How attendance works in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["attendance works in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many absences I get in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["absences I get in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do I need to attend lectures in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["attend lectures in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many tutorials I can skip in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["tutorials I can skip in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the summer attendance policy?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["summer attendance policy", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "how is the attendance calculated in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["attendance calculated in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What are the courses offered in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["courses offered in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is Math 301 offered in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["Math 301 offered in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What are summer courses rules?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["summer courses rules", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Where can I apply to a summer course?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["apply to a summer course", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to apply for a course in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["apply for a course in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Who can take summer courses?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["take summer courses", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Can any student take courses in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["any student take courses in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How are summer courses graded?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["summer courses graded", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is grading in summer different?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["grading in summer different", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the maximum credt hours offered in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["maximum credt hours offered in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many rounds are offered in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["rounds are offered in summer", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How long is a summer round ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["long is a summer round", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the the summer semester duration?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["summer semester duration", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to apply for semester abroad in Berlin?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["apply for semester abroad in Berlin", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Where to apply for Berlin semester abroad?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["apply for Berlin semester abroad", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the minimum number of students needed to open a class in GUC Berlin?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["open a class in GUC Berlin", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the guc attendance policy?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["guc attendance policy", "guc attendance policy"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What many absences I can have?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["absences I can have", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many tutorials I can miss in a semester?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["tutorials I can miss in a semester", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How the attendance system works?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["attendance system works", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is it obligatory to do internships?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["obligatory to do internships", "guc_guidelines"]
+]
+}
+]
+},
+"B": { 
+"sent":"aaaa"
+},
+"turn" : 0
+}
+]
+}
+
+]

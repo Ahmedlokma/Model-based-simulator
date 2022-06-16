@@ -1,0 +1,797 @@
+[
+{
+"dial" : [
+{
+"A": { 
+"transcript":"what is academic probation gpa ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["3.7", "probation"]
+]
+},
+{
+"act": "inform",
+"slots": [
+ ["academic probation gpa", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"Lower than 3.7(D+) "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is the academic load the same for students under probation?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["academic load", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"The academic load per semester for under probation student will be reduced in order to be able to have a better chance to improve their overall GPA"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many terms can I be under academic probation ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["two subsequent terms", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"A student shall be given two subsequent terms for enrollment on probation status"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "what happens if I stayed under probation for more than two subsequent terms?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["two subsequent terms", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"At the conclusion of the two semesters  a student who has not achieved a cumulative GPA better than 3.7 (D+) shall be asked to transfer to another university"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do I choose the courses on my own in case of probation ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["choose courses", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"No  an academic advisor schedules a meeting with the student under probation and suggest the courses that the student may enroll in ."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "when the schedules are released for students under probation ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["schedules released for students under probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"After normal students schedules "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "For more information regrading probation , who can I contact ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["information regrading probation", "probation"]
+]
+}
+]
+},
+"B": { 
+"sent":"For further information, you may contact the probation office."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many rounds are in the summer ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["round", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Two rounds."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How many courses can I take in one round ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["round", "summer"]
+]
+},
+{
+"act": "inform",
+"slots": [
+ ["eight credit hours", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Maximum eight credit hours in one round."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the attendance policy in summer ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["attendance", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Lectures and tutorials and labs all of them have attendance"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Are all the courses available in summer ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["courses available", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"No some courses may not be available in the summer if there are not enough number of students"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Can I take a course in the summer to decrease the load in the regular semester ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["decrease load", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes you can but you should complete its prerequisites first"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Are all summer rounds available for all students ? ",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["round", "summer "]
+]
+},
+{
+"act": "inform",
+"slots": [
+ ["summer rounds available", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"No  round 1 is not available for first year engineering students  because chemistry lab is offered in round 1 and its obligatory."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is there a late registration in summer courses ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["late registration", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes  but you may not find a spot if the course is fully enrolled."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Is the content of the summer course the same as the regular semester ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["content of summer course", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes  same as regular semester "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do summer courses have midterm exam ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["midterm exam", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"No midterm exam is not offered "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "What is the duration of each summer round ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["round", "summer"]
+]
+},
+{
+"act": "inform",
+"slots": [
+ ["duration", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"One Month for each round "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do summer courses have Final exam ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["final exam", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do summer courses have projects ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["projects", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do summer courses have quizzes ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["quizzes", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Do summer courses have assignments ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["assignments", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes"
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": " Can I improve a course in summer?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["improve course", "summer"]
+]
+}
+]
+},
+"B": { 
+"sent":"Yes but only within one academic year ."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How can I study cs courses ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["cs courses", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"by watching tutorials and trying to implement mini projects by yourself "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How I can study for my exams ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["exams", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"by solving past exams and trying to understand the lecture slides explaining the concepts "
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to organize my study?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["organize my study", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"Try to collect as much information during the lectures and the tutorials as much as you can, this will save you time studying. List all the deadlines and give each one a score with its weight, how much time is needed to finish that assignment vs how much time you have, and what are the most important requirements of each assignment."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Can advising students go to Berlin?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["advising students go to berlin", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"Depending on the case, you could ask your advisor or coordinator."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "Who can I go to if I want to plan my next semesters so that I could graduate as early as possible? ",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["plan my next semesters", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"If you are an advising student then you can make your graduation plan with your advisor."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How could I work and study at the same time even though studying alone takes all our time?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["work and study", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"During the academic semester, you are only required to focus on your study and academic duties. Working on the projects and assignments is part of the academic experience to teach you time management."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How do I manage my time properly?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["manage time", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"Try to collect as much information during the lectures and the tutorials as much as you can, this will save you time studying. List all the deadlines and give each one a score with its weight, how much time is needed to finish that assignment vs how much time you have, and what are the most important requirements of each assignment."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How can I take notes efficiently? ",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["take notes", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"Focus on the main points in the session, it\u2019s better if you have the session slides with you so you can add notes directly on them."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How do I organize my schedule efficiently?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["organize my schedule", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"List all the deadlines and give each one a score with its weight, how much time is needed to finish that assignment vs how much time you have, and what are the most important requirements of each assignment."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "If I got a D grade in data structure and algorithm course, should I take an improvement exam? or It will not affect my career.",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["improvement exam", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"The grade of one course does not affect your career, recruiters focus on the overall performance."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "what are study tips and info about the met subjects ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["study tips", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"Start by listing all the content you have taken so far, mark them with your level of understanding; attended or not attended, how much you understand that lecture for example. Then start listing your quizzes/projects/assignments/etc. Including their weights, deadlines, and how much time they need."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "How to handle deadlines? ",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["handle deadlines", "study advice"]
+]
+}
+]
+},
+"B": { 
+"sent":"List all the deadlines and give each one a score with its weight, how much time is needed to finish that assignment vs how much time you have, and what are the most important requirements of each assignment."
+},
+"turn" : 0
+}
+]
+},
+{
+"dial" : [
+{
+"A": { 
+"transcript": "can I do my bachelor project on the 10th semester ?",
+
+"slu" : [
+{
+"act": "inform",
+"slots": [
+["bachelor project on 10th semester", "advising"]
+]
+}
+]
+},
+"B": { 
+"sent":"In case you are an advising student yes, you need to discuss this with your advisor and coordinator"
+},
+"turn" : 0
+}
+]
+}
+
+]

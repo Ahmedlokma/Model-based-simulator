@@ -1,0 +1,57 @@
+INFO:root:cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : unknown
+m : TSD
+prev_z_method : separate
+dataset : usr
+seed : 0
+vocab_size : 8000
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+degree_size : 1
+split : (9, 1, 1)
+root_dir : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user
+model_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/models/trainmodel.pkl
+result_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/results/trainmodel.csv
+vocab_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/vocab/vocab-trainmodel.pkl
+data : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/example2.json
+entity : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/example.json
+db : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/trainmodel.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+
+INFO:root:6865 known embedding. old mean: 0.000030 new mean -0.020280, old std 1.001408 new std 0.671768
+INFO:root:loss:6.171474933624268 pr_loss:0.0011256750440225005 m_loss:6.17034912109375 grad:0.6108630299568176
+INFO:root:Traning time: 218.18861484527588
+INFO:root:avg training loss in epoch 0 sup:7.823982
+INFO:root:validation loss in epoch 0 sup:6.638550 unsup:0.000000
+INFO:root:time for epoch 0: 249.136288
+INFO:root:saving model...
+INFO:root:loss:5.796658992767334 pr_loss:0.0026885110419243574 m_loss:5.793970584869385 grad:0.646940290927887
+INFO:root:Traning time: 483.30680894851685
+INFO:root:avg training loss in epoch 1 sup:5.976034
+INFO:root:validation loss in epoch 1 sup:6.319586 unsup:0.000000
+INFO:root:time for epoch 1: 302.748647
+INFO:root:saving model...

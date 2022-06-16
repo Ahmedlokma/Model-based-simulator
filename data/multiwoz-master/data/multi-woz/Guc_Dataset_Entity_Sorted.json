@@ -1,0 +1,49 @@
+{
+    "informable":{
+        "probation":
+        [
+            "3.7",
+             "academic load",
+             "two subsequent terms",
+             "choose courses",
+             "schedules released for students under probation",
+             "information regrading probation "
+            ],
+            "summer":
+            [
+                "round",
+                 "attendance",
+                 "courses available",
+                 "decrease load",
+                 "late registration",
+                 "content of summer course",
+                 "midterm exam",
+                 "final exam",
+                 "projects",
+                 "quizzes",
+                 "assignments",
+                 "improve course"
+                ],
+
+                "study advice":
+                [
+                    "cs courses",
+                     "exams",
+                     "organize my study",
+                     "work and study",
+                     "manage time",
+                     "take notes",
+                     "organize my schedule",
+                     "improvement exam",
+                     "study tips",
+                     "handle deadlines"
+                    ],
+                    "advising":
+                    [
+                        "advising students go to Berlin",
+                         "plan my next semesters",
+                         "bachelor project on 10th semester"
+                        ]
+                    }
+                }
+

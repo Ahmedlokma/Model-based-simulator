@@ -1,0 +1,141 @@
+cuda_device : 4
+eos_m_token : EOS_M
+beam_len_bonus : 0.5
+mode : train
+m : TSD
+prev_z_method : separate
+dataset : usr
+seed : 0
+vocab_size : 8000
+embedding_size : 50
+hidden_size : 50
+lr : 0.003
+lr_decay : 0.5
+layer_num : 1
+z_length : 16
+max_ts : 50
+early_stop_count : 5
+cuda : True
+degree_size : 1
+split : (9, 1, 0)
+root_dir : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user
+model_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/models/wed222.pkl
+result_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/results/wed222.csv
+vocab_path : /Users/ahmedlokma/Desktop/user-simulator-master/sequicity_user/vocab/wed222.pkl
+data : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Dialogue_act22.json
+entity : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset_Entity_Sorted22.json
+db : /Users/ahmedlokma/Desktop/user-simulator-master/data/multiwoz-master/data/multi-woz/Guc_Dataset22.json
+glove_path : ../sequicity/data/glove/glove.6B.50d.txt
+batch_size : 32
+dropout_rate : 0.5
+epoch_num : 100
+rl_epoch_num : 1
+spv_proportion : 100
+new_vocab : True
+teacher_force : 100
+beam_search : False
+beam_size : 10
+sampling : False
+use_positional_embedding : False
+unfrz_attn_epoch : 0
+skip_unsup : False
+truncated : False
+pretrain : False
+START_CSV_SECTION
+dial_id,turn_num,user,generated_bspan,bspan,generated_response,response,u_len,m_len,supervised
+11,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,copy <unk> <unk>,What happens if I copy an assignment?,what happens if i copy an assignment ?,2,9,True
+48,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,studying for finals <unk> <unk>,I need help studying for finals?,i need help studying for finals ?,2,8,True
+46,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,study for midterms <unk> <unk>,How to study for midterms?,how to study for midterms ?,2,7,True
+80,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,take summer courses <unk> <unk>,Who can take summer courses?,who can take summer courses ?,2,7,True
+56,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,studying tips <unk> <unk>,Do you have any studying tips?,do you have any studying tips ?,2,8,True
+23,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an d+ ?,2,10,True
+5,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,How does a good cv look like?,how does a good cv look like ?,2,9,True
+25,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa grade calculated <unk> <unk>,How is the gpa grade calculated?,how is the gpa grade calculated ?,2,8,True
+78,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,apply to a summer course <unk> <unk>,Where can I apply to a summer course?,where can i apply to a summer course ?,2,10,True
+83,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,grading in summer different <unk> <unk>,Is grading in summer different?,is grading in summer different ?,2,7,True
+49,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,studying for midterms <unk> <unk>,I need assistance studying for midterms?,i need assistance studying for midterms ?,2,8,True
+12,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,copy <unk> <unk>,Can I copy a project solution from an online resource?,can i copy a project solution from an online resource ?,2,12,True
+51,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,study for an exam <unk> <unk>,How to study for an exam?,how to study for an exam ?,2,8,True
+7,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,side projects <unk> <unk>,Is it important to have side projects?,is it important to have side projects ?,2,9,True
+1,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,How to make my cv?,how to make my cv ?,2,7,True
+4,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,What information is important to write in the cv?,what information is important to write in the cv ?,2,11,True
+43,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,submit the internship report <unk> <unk>,Where to submit the internship report?,where to submit the internship report ?,2,8,True
+38,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,What is the internships duration needed from a pharmacy student?,what is the internships duration needed from a pharmacy student ?,2,12,True
+93,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,tutorials i can miss in a semester <unk> <unk>,How many tutorials I can miss in a semester?,how many tutorials i can miss in a semester ?,2,11,True
+40,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,completing an internship <unk> <unk>,What to do after completing an internship?,what to do after completing an internship ?,2,9,True
+36,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,What is the internships duration needed from an MET student?,what is the internships duration needed from an met student ?,2,12,True
+82,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,summer courses graded <unk> <unk>,How are summer courses graded?,how are summer courses graded ?,2,7,True
+70,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,absences i get in summer <unk> <unk>,How many absences I get in summer?,how many absences i get in summer ?,2,9,True
+68,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa needed to get out of probarion <unk> <unk>,What is the gpa needed to get out of probarion?,what is the gpa needed to get out of probarion ?,2,12,True
+44,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,submit the internship report <unk> <unk>,How to fill out and submit the internship report?,how to fill out and submit the internship report ?,2,11,True
+79,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,apply for a course in summer <unk> <unk>,How to apply for a course in summer?,how to apply for a course in summer ?,2,10,True
+9,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,free time <unk> <unk>,How to make value of my free time?,how to make value of my free time ?,2,10,True
+91,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,guc attendance policy <unk> <unk>,What is the guc attendance policy?,what is the guc attendance policy ?,2,8,True
+6,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,How to compensate for the lack of work experience in my cv?,how to compensate for the lack of work experience in my cv ?,2,14,True
+3,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,I need help making my cv?,i need help making my cv ?,2,8,True
+52,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,study <unk> <unk>,How to study?,how to study ?,2,5,True
+54,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,achieve good grades <unk> <unk>,How to achieve good grades?,how to achieve good grades ?,2,7,True
+77,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,summer courses rules <unk> <unk>,What are summer courses rules?,what are summer courses rules ?,2,7,True
+22,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an f ?,2,10,True
+92,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,absences i can have <unk> <unk>,What many absences I can have?,what many absences i can have ?,2,8,True
+33,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,Is there an excuse for not doing internships?,is there an excuse for not doing internships ?,2,10,True
+86,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,long is a summer round <unk> <unk>,How long is a summer round ?,how long is a summer round ?,2,8,True
+20,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an c ?,2,10,True
+55,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,studying tips <unk> <unk>,Do you have any studying tips?,are there any studying tips ?,2,7,True
+26,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,guc grading schema <unk> <unk>,What is the guc grading schema?,what is the guc grading schema ?,2,8,True
+32,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,Are internships obligatory for all faculties ?,are internships obligatory for all faculties ?,2,8,True
+94,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,attendance system works <unk> <unk>,How the attendance system works?,how the attendance system works ?,2,7,True
+85,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,rounds are offered in summer <unk> <unk>,How many rounds are offered in summer?,how many rounds are offered in summer ?,2,9,True
+72,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,tutorials i can skip in summer <unk> <unk>,How many tutorials I can skip in summer?,how many tutorials i can skip in summer ?,2,10,True
+16,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an a ?,2,10,True
+29,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,How to find internships?,how to find internships ?,2,6,True
+64,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,tips to leave probation <unk> <unk>,Ant tips to leave probation?,ant tips to leave probation ?,2,7,True
+58,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,student becomes advising <unk> <unk>,How a student becomes advising?,how a student becomes advising ?,2,7,True
+18,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an a- ?,2,10,True
+71,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,attend lectures in summer <unk> <unk>,Do I need to attend lectures in summer?,do i need to attend lectures in summer ?,2,10,True
+81,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,any student take courses in summer <unk> <unk>,Can any student take courses in summer?,can any student take courses in summer ?,2,9,True
+8,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,free time <unk> <unk>,What projects can I do in my free time?,what projects can i do in my free time ?,2,11,True
+61,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,get out of probation <unk> <unk>,Help me get out of probation?,help me get out of probation ?,2,8,True
+19,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an b+ ?,2,10,True
+13,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,plagirism <unk> <unk>,Is it plagirism to use online resources?,is it plagirism to use online resources ?,2,9,True
+17,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an a+ ?,2,10,True
+0,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,How to prepare my cv?,how to prepare my cv ?,2,7,True
+65,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,probation <unk> <unk>,What is probation?,what is probation ?,2,5,True
+59,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,advising <unk> <unk>,Do advising students have an advisor?,do advising students have an advisor ?,2,8,True
+39,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,What is the internships duration needed from a Management student?,what is the internships duration needed from a management student ?,2,12,True
+37,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,What is the internships duration needed from an Appiled Arts student?,what is the internships duration needed from an appiled arts student ?,2,13,True
+60,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,get out of probation <unk> <unk>,How to get out of probation?,how to get out of probation ?,2,8,True
+15,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,plagirism <unk> <unk>,What is plagirism?,what is plagirism ?,2,5,True
+76,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,math 301 offered in summer <unk> <unk>,Is Math 301 offered in summer?,is math 301 offered in summer ?,2,8,True
+73,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,summer attendance policy <unk> <unk>,What is the summer attendance policy?,what is the summer attendance policy ?,2,8,True
+21,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an d ?,2,10,True
+47,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,study for finals <unk> <unk>,How to study for finals?,how to study for finals ?,2,7,True
+28,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,How can I get internships?,how can i get internships ?,2,7,True
+84,0,aaaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,maximum credt hours offered in summer <unk> <unk>,What is the maximum credt hours offered in summer?,what is the maximum credt hours offered in summer ?,2,11,True
+34,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,How long do an internship has to be?,how long do an internship has to be ?,2,10,True
+2,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,cv <unk> <unk>,Where can I have my cv reviewed?,where can i have my cv reviewed ?,2,9,True
+31,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,Is it a must to do an internship?,is it a must to do an internship ?,2,10,True
+24,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa equivilant <unk> <unk>,What is the gpa equivilant to an C- ?,what is the gpa equivilant to an c- ?,2,10,True
+42,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,completed an intenship <unk> <unk>,How to tell the university that I have completed an intenship?,how to tell the university that i have completed an intenship ?,2,13,True
+62,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,get out of probation <unk> <unk>,Is it easy to get out of probation?,is it easy to get out of probation ?,2,10,True
+14,0,aa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,plagirism <unk> <unk>,Does having a conversation with a colleague about the project considered plagirism?,does having a conversation with a colleague about the project considered plagirism ?,2,14,True
+41,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,submit an internship <unk> <unk>,How to submit an internship?,how to submit an internship ?,2,7,True
+95,0,aaaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,obligatory to do internships <unk> <unk>,Is it obligatory to do internships?,is it obligatory to do internships ?,2,8,True
+45,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,avoid plagirirsm <unk> <unk>,How to avoid plagirirsm?,how to avoid plagirirsm ?,2,6,True
+63,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,probation student graduate on time <unk> <unk>,Can a probation student graduate on time?,can a probation student graduate on time ?,2,9,True
+57,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,advising <unk> <unk>,What is advising?,what is advising ?,2,5,True
+88,0,aaaa,gpa summer summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,apply for semester abroad in berlin <unk> <unk>,How to apply for semester abroad in Berlin?,how to apply for semester abroad in berlin ?,2,10,True
+74,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,attendance calculated in summer <unk> <unk>,how is the attendance calculated in summer?,how is the attendance calculated in summer ?,2,9,True
+53,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,study in the guc <unk> <unk>,How to study in the guc?,how to study in the guc ?,2,8,True
+75,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,courses offered in summer <unk> <unk>,What are the courses offered in summer?,what are the courses offered in summer ?,2,9,True
+27,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,Where can I find internships as an undergrad?,where can i find internships as an undergrad ?,2,10,True
+30,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,How to get accepted in internships?,how to get accepted in internships ?,2,8,True
+66,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,probation students pay extra <unk> <unk>,Do probation students pay extra?,do probation students pay extra ?,2,7,True
+35,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,internships <unk> <unk>,What is the internships duration needed from an Engineering student?,what is the internships duration needed from an engineering student ?,2,12,True
+67,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,gpa a student gets to become under probation <unk> <unk>,What is the gpa a student gets to become under probation?,what is the gpa a student gets to become under probation ?,2,13,True
+90,0,aaaa,gpa summer <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,open a class in guc berlin <unk> <unk>,What is the minimum number of students needed to open a class in GUC Berlin?,what is the minimum number of students needed to open a class in guc berlin ?,2,17,True
+50,0,aaa,internships <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,pass my midterms <unk> <unk>,How to pass my midterms?,how to pass my midterms ?,2,7,True
+87,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,summer semester duration <unk> <unk>,What is the the summer semester duration?,what is the the summer semester duration ?,2,9,True
+69,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,attendance works in summer <unk> <unk>,How attendance works in summer?,how attendance works in summer ?,2,7,True
+89,0,aaaa,cv <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,apply for berlin semester abroad <unk> <unk>,Where to apply for Berlin semester abroad?,where to apply for berlin semester abroad ?,2,9,True
+10,0,aaa,gpa equivilant <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>,side projects <unk> <unk>,Is it important to have side projects?,is it important to have side projects ?,2,9,True

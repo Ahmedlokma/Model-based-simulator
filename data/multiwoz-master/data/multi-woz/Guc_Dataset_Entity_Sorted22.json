@@ -1,0 +1,91 @@
+{
+    "informable":{
+        "guc_guidelines":
+        [
+
+            "cv",
+             "copy",
+             "plagirism",
+             "gpa equivilant",
+             "gpa grade calculated",
+             "guc grading schema",
+             "internships",
+             "completing an internship",
+             "submit an internship",
+             "completed an intenship",
+             "submit the internship report",
+             "apply for semester abroad in Berlin",
+             "apply for Berlin semester abroad",
+             "open a class in GUC Berlin",
+             "absences I can have",
+             "tutorials I can miss in a semester",
+             "attendance system works",
+             "obligatory to do internships"
+            ],
+            "summer":
+            [
+                
+                    "attendance works in summer",
+                     "absences I get in summer",
+                     "attend lectures in summer",
+                     "tutorials I can skip in summer",
+                     "summer attendance policy",
+                     "attendance calculated in summer",
+                     "courses offered in summer",
+                     "Math 301 offered in summer",
+                     "summer courses rules",
+                     "apply to a summer course",
+                     "apply for a course in summer",
+                     "take summer courses",
+                     "any student take courses in summer",
+                     "summer courses graded",
+                     "grading in summer different",
+                     "maximum credt hours offered in summer",
+                     "rounds are offered in summer",
+                     "long is a summer round",
+                     "summer semester duration"
+                    
+            ],
+            "study_advice":
+            [
+                
+                    "side projects",
+                     "free time",
+                     "avoid plagirirsm",
+                     "study for midterms",
+                     "study for finals",
+                     "studying for finals",
+                     "studying for midterms",
+                     "pass my midterms",
+                     "study for an exam",
+                     "study",
+                     "study in the guc",
+                     "achieve good grades",
+                     "studying tips"
+                     
+            ],
+            "probation":
+            [
+                
+                    "get out of probation",
+                     "probation student graduate on time",
+                     "tips to leave probation",
+                     "probation",
+                     "probation students pay extra",
+                     "gpa a student gets to become under probation",
+                     "gpa needed to get out of probation"
+                     
+            ],
+            "advising":
+            [
+                
+                "advising",
+                "student becomes advising"
+                
+            ]
+
+    }
+
+
+
+}
